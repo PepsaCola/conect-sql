@@ -1,0 +1,29 @@
+{
+  "name": "conect-sql",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "msnodesqlv8": "^4.4.0",
+    "mssql": "^11.0.1"
+  },
+  "devDependencies": {
+    "os-browserify": "^0.3.0",
+    "parcel": "^2.13.0",
+    "path-browserify": "^1.0.1",
+    "stream-browserify": "^3.0.0",
+    "timers-browserify": "^2.0.12",
+    "util": "^0.12.5"
+  },
+  "alias": {
+    "msnodesqlv8": false
+  }
+}
